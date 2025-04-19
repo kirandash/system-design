@@ -64,7 +64,7 @@ ex: analytics platform like google analytics or posthog is write heavy
   - Depends on the interview qn requirement. For large scale systems ex: Uber, google, amazon, netflix etc choose distribute arch
   - for small scale systems ex: web crawler etc: use single server or monolithic system
 
-#### 3.2.3 Availability or Data consistency?
+#### 3.2.3 What's important? Availability or Data consistency?
 
 - Network leads to more complexity
 - Impact of a network interruption
