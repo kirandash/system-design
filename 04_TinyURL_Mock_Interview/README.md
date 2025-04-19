@@ -65,7 +65,7 @@
   - Are there any events that lead to spikes in traffic?
     - No, highly unlikely to have spikes
   - How often do users interact with the app per day?
-    - 1 click per user per day
+    - 5-10 click per user per day
   - What is the read/write ratio?
     - 10:1
   - How long are the URLs on avg that are supposed to be shortened
@@ -105,7 +105,7 @@
 
 - Given:
   - 100M DAU
-  - 1 click per user per day
+  - 10 click per user per day
   - 10:1 read/write ratio
 
 #### 2.2.1 Calculation:
@@ -117,11 +117,11 @@
 
 - bandwidth:
 
-  - Read Bandwidth = 200bytes _ 10^4RPS = 2 _ 10^6 Bytes / sec = 2 \* 10^6 / 10^3 Kbps = 2000 KBps
+  - Read Bandwidth = 200bytes \* 10^4RPS = 2 \* 10^6 Bytes / sec = 2 \* 10^6 / 10^3 Kbps = 2000 KBps
   - Write bandwidth = 2000 KBps / 10 = 200 KBps
 
 - storage: (for the next 5 years) ie 2 \* 10^8
-  - Write bandwidth _ 2 _ 10 ^ 8 = 200 _ 2 _ 10^8 KBps = 4 _ 10^10KBps = 4 _ 10^10KBps / 10^6 GB = 4\*10^4 GB = 40000 GB = 40TB
+  - Write bandwidth = 2 \* 10 ^ 8 = 200 _ 2 _ 10^8 KBps = 4 \* 10^10KBps = 4 \* 10^10KBps / 10^6 GB = 4\*10^4 GB = 40000 GB = 40TB
 
 ### 2.3 Data Modeling
 
